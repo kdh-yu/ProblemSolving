@@ -7,7 +7,6 @@ def power_set(A: list[int]) -> list[list[int]]:
         subset = []
         for j in range(len(A)):
             if i & (1<<j):
-                print(i, (1<<j))
                 subset.append(A[j])
         output.append(subset)
     return output
