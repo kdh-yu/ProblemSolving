@@ -1,1 +1,2 @@
-print(7>>1)
+temp = set()
+temp.add((1,2))
