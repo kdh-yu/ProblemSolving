@@ -1,2 +1,3 @@
-temp = set()
-temp.add((1,2))
+a = input()
+b = input()
+print(a, '\n', b)
